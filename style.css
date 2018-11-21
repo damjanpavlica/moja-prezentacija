@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    color: #333;
+    background-color: #f0f0f0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Righteous', cursive;
+}
+
+header, footer {
+    background-color: #333;
+    color: #f0f0f0;
+    overflow: auto; /* da margine ne bi probijale */
+}
+
+.crveno {
+    color:crimson;
+}
