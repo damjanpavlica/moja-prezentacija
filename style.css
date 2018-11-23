@@ -15,7 +15,8 @@ h1, h2, h3 {
 header, footer {
   background-color: #333;
   color: #f0f0f0;
-  overflow: auto; /* da margine ne bi probijale */
+  overflow: auto;
+  /* da margine ne bi probijale */
 }
 
 .container {
