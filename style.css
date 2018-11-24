@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/* https://color.adobe.com/Sea-Wolf-color-theme-782171/edit/?copy=true&base=2&rule=Custom&selected=3&name=Copy%20of%20Sea%20Wolf&mode=rgb&rgbvalues=0.862745,0.207843,0.133333,0.85098,0.796078,0.619608,0.215686,0.254902,0.25098,0.164706,0.172549,0.168627,0.117647,0.117647,0.12549&swatchOrder=0,1,2,3,4*/
 
 body {
   margin: 0;
-  color: #333;
-  background-color: #f0f0f0;
+  color: #1E1E20;
+  background-color: #D9CB9E;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+header, footer {
+  background-color: #1E1E20;
+  color: #D9CB9E;
+  overflow: auto;
+  /* da margine ne bi probijale */
+}
+
+a {
+  color: #DC3522;
 }
 
 img {
@@ -14,13 +26,6 @@ img {
 
 h1, h2, h3 {
   font-family: 'Righteous', cursive;
-}
-
-header, footer {
-  background-color: #333;
-  color: #f0f0f0;
-  overflow: auto;
-  /* da margine ne bi probijale */
 }
 
 .container {
