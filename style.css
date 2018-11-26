@@ -1,5 +1,7 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*/
 /* https://color.adobe.com/Sea-Wolf-color-theme-782171/edit/?copy=true&base=2&rule=Custom&selected=3&name=Copy%20of%20Sea%20Wolf&mode=rgb&rgbvalues=0.862745,0.207843,0.133333,0.85098,0.796078,0.619608,0.215686,0.254902,0.25098,0.164706,0.172549,0.168627,0.117647,0.117647,0.12549&swatchOrder=0,1,2,3,4*/
 
 body {
@@ -7,6 +9,13 @@ body {
   color: #1E1E20;
   background-color: #D9CB9E;
   font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 header, footer {
@@ -35,6 +44,27 @@ h1, h2, h3 {
 
 .crveno {
   color: crimson;
+}
+
+.relative-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 8%;
+  bottom: 10px;
+  font-size: 44px;
+  text-decoration: none;
 }
 
 @media(min-width: 600px) {
